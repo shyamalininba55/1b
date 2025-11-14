@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MicroBlog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    form textarea {
+      width: 100%;
+      height: 80px;
+      padding: 10px;
+      margin-bottom: 10px;
+      resize: none;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .post {
+      background-color: #e9e9e9;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    .timestamp {
+      font-size: 0.8em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MicroBlog</h1>
+    <p>Share your thoughts in 280 characters or less</p>
+  </header>
+
+  <div class="container">
+    <form>
+      <textarea placeholder="What's on your mind?"></textarea>
+      <button type="submit">Post</button>
+    </form>
+
+    <div class="post">
+      <p>Just launched my portfolio site! 🚀</p>
+      <div class="timestamp">Posted on Sep 19, 2025</div>
+    </div>
+
+    <div class="post">
+      <p>Working on a new microblogging app. Stay tuned!</p>
+      <div class="timestamp">Posted on Sep 18, 2025</div>
+    </div>
+  </div>
+
+</body>
+</html>
